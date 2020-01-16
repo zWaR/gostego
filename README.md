@@ -8,7 +8,7 @@ A simple steganography tool written in go, using LSB methodology.
 
 In order to hide a message, pick an image and create a file with your text. Please note that only ASCII characters are supported.
 
-Run the following command to hide the image:
+Run the following command to hide the message:
 
 ```bash
 gostego hide --image myImage.png --msg-file message.txt
